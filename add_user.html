@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="LA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/add.css">
+    <link rel="shortcut icon" href="./static/images (1).png" type="image/x-icon">
+    <title>Rejister</title>
+</head>
+
+<body>
+
+
+    <form action="#" method="POST">
+        <img src="../static/images (1).png" alt="" width="100" height="100">
+        <h1>ໜ້າລົງທະບຽນ ຄ ວ ທ</h1>
+        <br>
+
+        <label for="name">ຊື່ ແລະ ນາມສະກຸນ:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="Na">ເບີໂທ:</label>
+        <input type="text" id="Na" name="Na"><br>
+
+        <Label for="n_namee">ໄອດີນັກສືກສາ:</Label>
+        <input type="text" id="n_namee" name="n_namee" pattern="^[0-9]{3}[A-Z]{1}[0-9]{4}\.[0-9]{2}$"
+            title="ໄອດີ 8 ໂຕຂື້ນໄປສະເພາະແຕ່ຕັວເລກ"><br>
+
+
+        <label for="password">ລະຫັດຜ່ານ:</label>
+        <input type="text" id="password" name="password" pattern="^[0-9]{8,}$"
+            title="ລະຫັດ 8 ໂຕຂື້ນໄປສະເພາະແຕ່ຕັວເລກ"><br>
+
+        <label for="U">ບ້ານ</label>
+        <input type="text" id="U" name="U">
+
+        <label for="M">ເມືອງ</label>
+        <input type="text" id="M" name="M">
+
+        <select id="P" name="P">
+            <option value="ນະຄອນຫຼວງວຽງຈັນ">ນະຄອນຫຼວງວຽງຈັນ</option>
+            <option value="ວຽງຈັນ">ວຽງຈັນ</option>
+            <option value="ຜົ້ງສາລີ">ຜົ້ງສາລີ</option>
+            <option value="ຫຼວງນ້ຳທາ">ຫຼວງນ້ຳທາ</option>
+            <option value="ບໍແກ້ວ">ບໍແກ້ວ</option>
+            <option value="ຫົວພັນ">ຫົວພັນ</option>
+            <option value="ອຸດົມໄຊ">ອຸດົມໄຊ</option>
+            <option value="ຊຽງຂວາງ">ຊຽງຂວາງ</option>
+            <option value="ຫຼວງພະບາງ">ຫຼວງພະບາງ</option>
+            <option value="ໄຊຍະບູລີ">ໄຊຍະບູລີ</option>
+            <option value="ໄຊສົມບູນ">ໄຊສົມບູນ</option>
+            <option value="ບໍລິຄຳໄຊ">ບໍລິຄຳໄຊ</option>
+            <option value="ຄຳມ່ວງ">ຄຳມ່ວນ</option>
+            <option value="ສະຫວັນນະເຂດ">ສະຫວັນນະເຂດ</option>
+            <option value="ສາລະວັນ">ສາລະວັນ</option>
+            <option value="ຈຳປາສັກ">ຈຳປາສັກ</option>
+            <option value="ເຊກອນ">ເຊກອງ</option>
+            <option value="ອັດຕະປື">ອັດຕະປື</option>
+
+        </select>
+
+
+
+        <button type="submit">Add Customer</button>
+        <a href="./index.html">Logout</a>
+    </form>
+    <br>
+
+</body>
+
+</html>

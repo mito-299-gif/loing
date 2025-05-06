@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Phetsarath OT';
+    src: url('fonts/PhetsarathOT.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Phetsarath OT';
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    transform: translate(0%, -37%);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 133px;
+    background-color: #0866ff;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn {
+    width: 231px;
+    height: 40px;
+    margin-top: 39px;
+    margin-left: -1px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn1 {
+    margin-top: 6px;
+    margin-left: 9px;
+    background-color: #4bff51c1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+/* ປ່ຽນປຸ່ມລິ້ງໃຫ້ເປັນທຳມະດາ */
+
+button a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*  */
+
+button:hover {
+    background-color: #3280ff;
+}
+
+.btn1:hover {
+    background-color: #7fff83c1;
+}
+
+.loing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 37vh;
+    /* background-image: linear-gradient(to bottom, #fff, #f7f7f7); */
+    margin-top: 20vh;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+    top: -4px;
+    right: 2px;
+}
+
+h1 {
+    font-family: 'Phetsarath OT';
+    margin: -73px 0 0 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 79%;
+    margin: 0 auto;
+}
+
+.forgot {
+    margin-top: 20px;
+    margin-left: -55px;
+}
+
+.alert {
+    position: fixed;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeOut 15s;
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
